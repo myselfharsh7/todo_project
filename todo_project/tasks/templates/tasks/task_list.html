@@ -1,0 +1,22 @@
+{% extends 'tasks/base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<div class="container">
+    <h1>Manage Your Todos</h1>
+    <p>Keep track of your tasks and stay organized. Add, edit, or delete tasks as needed.</p>
+    
+    <!-- Input for new task -->
+    <div class="todo-input">
+        <input type="text" id="todo-title" placeholder="Task Title" required/>
+        <input type="text" id="todo-description" placeholder="Task Description" required/>
+        <button id="addTaskButton">Add Task</button>
+    </div>
+
+    <!-- Task List -->
+    <ul class="todo-list" id="todo-list"></ul>
+</div>
+<script src="{% static 'script.js' %}"></script>
+
+{% endblock %}
