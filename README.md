@@ -36,25 +36,30 @@ To get started, clone the repository to your local machine:
 git clone [https://github.com/your-username/todo-list-app.git](https://github.com/myselfharsh7/todo_project.git)
 cd todo_project
 ```
-2. Install Dependencies
+2. Activate Venv
+```bash
+source env-name/bin/activate
+```
+
+3. Install Dependencies
 
 Use pip to install the necessary Python packages listed in the requirements.txt file:
 ```bash
 pip install -r requirements.txt
 ```
-3. Set Up the Database
+4. Set Up the Database
 
 Run the following command to apply the migrations and set up the database:
 ```bash
 python manage.py migrate
 ```
-4. Create a Superuser (Optional)
+5. Create a Superuser (Optional)
 
 To access the Django admin panel, create a superuser account:
 ```bash
 python manage.py createsuperuser
 ```
-5. Run the Development Server
+6. Run the Development Server
 
 Start the development server:
 ```bash
@@ -73,3 +78,5 @@ To access the Django admin panel, visit http://127.0.0.1:8000/admin/
 ## Live 
 
 [https://todo-list-svnt.onrender.com](https://todo-list-svnt.onrender.com)
+
+http://harshkumar123.pythonanywhere.com/
