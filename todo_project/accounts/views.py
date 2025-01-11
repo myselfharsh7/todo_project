@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login
-from django.contrib.auth.forms import UserCreationForm
+
 from .forms import RegistrationForm
 from django.shortcuts import redirect
 from django.contrib.auth import logout
@@ -17,8 +17,8 @@ def register(request):
     if request.method == 'POST':
         form = RegistrationForm(request.POST)
         if form.is_valid():
-            user = form.save()
-            login(request, user)
+            user = form.save()  # This will now save the user with the hashed password
+            login(request, user)  # Automatically logs the user in after registration
             return redirect('/')
     else:
         form = RegistrationForm()

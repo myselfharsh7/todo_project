@@ -15,3 +15,12 @@ class RegistrationForm(forms.ModelForm):
         if password != password_confirmation:
             raise forms.ValidationError("Passwords do not match")
         return password_confirmation
+
+    def save(self, commit=True):
+        # Save the user instance without the password first
+        user = super().save(commit=False)
+        # Set the password using set_password to hash it
+        user.set_password(self.cleaned_data['password'])
+        if commit:
+            user.save()
+        return user
