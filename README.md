@@ -73,7 +73,7 @@ To access the Django admin panel, visit http://127.0.0.1:8000/admin/
 
 ## Demo Video
 
-[https://uploading]
+https://youtu.be/CocrYaxEYcE
 
 ## Live 
 
