@@ -72,4 +72,4 @@ To access the Django admin panel, visit http://127.0.0.1:8000/admin/
 
 ## Live 
 
-[https://uploading]
+[https://todo-list-svnt.onrender.com](https://todo-list-svnt.onrender.com)
