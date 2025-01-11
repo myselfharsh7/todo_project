@@ -60,9 +60,10 @@ Start the development server:
 ```bash
 python manage.py runserver
 ```
+Access lOCALLY
 Visit http://127.0.0.1:8000/ in your browser to view the application.
 
-6. Access the Admin Panel 
+Access the Admin Panel :
 To access the Django admin panel, visit http://127.0.0.1:8000/admin/
 
 ## Demo Video
