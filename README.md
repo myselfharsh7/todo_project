@@ -77,6 +77,5 @@ https://youtu.be/CocrYaxEYcE
 
 ## Live 
 
-[https://todo-list-svnt.onrender.com](https://todo-list-svnt.onrender.com)
-
+[https://todo-list-svnt.onrender.com](https://todo-list-svnt.onrender.com)  (please wait 40 sec to load)
 http://harshkumar123.pythonanywhere.com/
