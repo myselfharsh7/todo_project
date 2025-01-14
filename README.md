@@ -38,7 +38,7 @@ cd todo_project
 ```
 2. Activate Venv
 ```bash
-source env-name/bin/activate
+source w3villa/bin/activate
 ```
 
 3. Install Dependencies
